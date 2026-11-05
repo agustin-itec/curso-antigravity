@@ -1,0 +1,98 @@
+{
+  "version": "0.2.0",
+  "exported_at": "2026-11-05 14:19:09.633301743",
+  "sessions": [
+    {
+      "id": "manual-save-curso-antigravity",
+      "project": "curso-antigravity",
+      "ownership_mode": "project_owned",
+      "directory": "/home/agustin/Escritorio/itec/2do/programacion2/curso-anigravity",
+      "started_at": "2026-11-05 14:19:08.430244359"
+    }
+  ],
+  "observations": [
+    {
+      "id": 1,
+      "sync_id": "obs-5bab9bace710ae72",
+      "session_id": "manual-save-curso-antigravity",
+      "type": "decision",
+      "title": "Pruned skills library for frontend scope",
+      "content": "What: Audited .agents/skills (agentic-awesome-skills) against docs/contexto and SDD; kept HTML/Tailwind/a11y/responsive/SDD skills. Why: reduce noise for agent. Where: .agents/skills/. Learned: cloned repo was a nested git repo; converted to regular files so GitHub shows content.",
+      "project": "curso-antigravity",
+      "scope": "project",
+      "revision_count": 1,
+      "duplicate_count": 1,
+      "last_seen_at": "2026-11-05 14:19:08",
+      "review_after": "2027-05-05 14:19:08",
+      "created_at": "2026-11-05 14:19:08",
+      "updated_at": "2026-11-05 14:19:08",
+      "pinned": false
+    },
+    {
+      "id": 2,
+      "sync_id": "obs-4ca1607c6052c5a2",
+      "session_id": "manual-save-curso-antigravity",
+      "type": "architecture",
+      "title": "Reverted React/FastAPI stack to single index.html SPA (ADR-003)",
+      "content": "What: Deleted frontend/ (React+Vite) and backend/ (FastAPI+SQLModel), built index.html with HTML5 + Tailwind CDN + vanilla JS. Why: Clase 07 Requirement 1 demands a single-file SPA; user confirmed deletion. Where: index.html, docs/contexto/arquitectura.md, decisiones.md, .agents/rules/antigravity_global_rules.md.",
+      "project": "curso-antigravity",
+      "scope": "project",
+      "revision_count": 1,
+      "duplicate_count": 1,
+      "last_seen_at": "2026-11-05 14:19:08",
+      "created_at": "2026-11-05 14:19:08",
+      "updated_at": "2026-11-05 14:19:08",
+      "pinned": false
+    },
+    {
+      "id": 3,
+      "sync_id": "obs-e15067a7653ecbf7",
+      "session_id": "manual-save-curso-antigravity",
+      "type": "pattern",
+      "title": "Implemented dark mode and 4 UI states",
+      "content": "What: Tailwind darkMode class persisted in localStorage, .force-text-white on red surfaces; catalog shows Loading/Empty/Error(?error)/Success; form validation with green success notice; modals close via button/X/backdrop/Esc. Where: index.html, REPORTE_VERIFICACION_SDD.md (ADR-004).",
+      "project": "curso-antigravity",
+      "scope": "project",
+      "revision_count": 1,
+      "duplicate_count": 1,
+      "last_seen_at": "2026-11-05 14:19:08",
+      "created_at": "2026-11-05 14:19:08",
+      "updated_at": "2026-11-05 14:19:08",
+      "pinned": false
+    },
+    {
+      "id": 4,
+      "sync_id": "obs-0e1b78d2753b6cbf",
+      "session_id": "manual-save-curso-antigravity",
+      "type": "bugfix",
+      "title": "Fixed blank screen from removed lucide-react icons",
+      "content": "What: Facebook/Instagram/Twitter/Youtube icons no longer exist in lucide-react, crashing React render. Fix: replaced with generic icons. Learned: superseded by ADR-003 (React removed), kept as gotcha.",
+      "project": "curso-antigravity",
+      "scope": "project",
+      "revision_count": 1,
+      "duplicate_count": 1,
+      "last_seen_at": "2026-11-05 14:19:09",
+      "created_at": "2026-11-05 14:19:09",
+      "updated_at": "2026-11-05 14:19:09",
+      "pinned": false
+    },
+    {
+      "id": 5,
+      "sync_id": "obs-6765adf16ab61d17",
+      "session_id": "manual-save-curso-antigravity",
+      "type": "decision",
+      "title": "Session summary: Clase 07 integrator deliverables",
+      "content": "Goal: deliver Clase 07 project. Accomplished: index.html SPA, 6 context docs linked in GEMINI.md, REPORTE_VERIFICACION_SDD.md, pushed to github.com/agustin-itec/curso-antigravity. Discoveries: local server must run outside agent sandbox; git remote add does not create the GitHub repo. Next: tick DoD checklist, enable GitHub Pages, record 2-3 min demo video.",
+      "project": "curso-antigravity",
+      "scope": "project",
+      "revision_count": 1,
+      "duplicate_count": 1,
+      "last_seen_at": "2026-11-05 14:19:09",
+      "review_after": "2027-05-05 14:19:09",
+      "created_at": "2026-11-05 14:19:09",
+      "updated_at": "2026-11-05 14:19:09",
+      "pinned": false
+    }
+  ],
+  "prompts": null
+}
